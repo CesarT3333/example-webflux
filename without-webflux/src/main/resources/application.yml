@@ -1,0 +1,19 @@
+server:
+  port: 8081
+
+spring:
+  application:
+    name: teste
+  data:
+    mongodb:
+      uri: mongodb://admin:admin@localhost:27017
+      database: webflux-db-example
+
+management:
+  endpoint:
+    health:
+      show-details: always
+  endpoints:
+    web:
+      exposure:
+        include: '*'

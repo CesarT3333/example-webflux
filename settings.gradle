@@ -1,0 +1,6 @@
+rootProject.name = 'example-webflux'
+
+include 'commons'
+include 'without-webflux'
+include 'with-webflux'
+include 'examples'

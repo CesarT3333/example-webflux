@@ -1,0 +1,24 @@
+plugins {
+    id 'java'
+}
+apply plugin: 'application'
+apply plugin: 'org.springframework.boot'
+
+bootJar {
+    enabled = false
+}
+
+jar {
+    enabled = true
+}
+
+dependencies {
+    implementation 'org.springframework.boot:spring-boot-starter-data-mongodb'
+    testImplementation 'org.springframework.boot:spring-boot-starter-test'
+
+    implementation 'io.micrometer:micrometer-registry-prometheus:1.8.0'
+    implementation "org.springframework.boot:spring-boot-starter-actuator"
+
+    compileOnly 'org.projectlombok:lombok'
+    annotationProcessor 'org.projectlombok:lombok'
+}
