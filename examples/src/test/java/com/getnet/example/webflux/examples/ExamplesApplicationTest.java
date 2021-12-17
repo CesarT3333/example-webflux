@@ -28,6 +28,16 @@ class ExamplesApplicationTest {
     );
 
     @Test
+    @DisplayName("Draw example")
+    void drawExample() {
+        var manyWords = Flux.fromIterable(words);
+
+        manyWords.subscribe(System.out::println);
+        manyWords.subscribe(System.out::println);
+        manyWords.subscribe(System.out::println);
+    }
+
+    @Test
     @DisplayName("Simple creation")
     void simpleCreation() {
         var fewWords = Flux.just("Hello", "World");

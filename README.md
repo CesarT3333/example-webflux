@@ -96,6 +96,8 @@ A seguir, algumas informações pertinentes para o entendimento dos conceitos ap
 - ![Reactive Programming (Project Reactor + Spring WebFlux) em uma Arquitetura de Microsserviços](https://medium.com/@marcelomg21/reactive-programming-project-reactor-spring-webflux-em-uma-arquitetura-de-micro-servi%C3%A7os-e4351028ff9a)
 - ![Intro To Reactor Core](https://www.baeldung.com/reactor-core)
 - ![Sobre o Flux](https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Flux.html)
+- ![Padrão de projeto `Observer`](https://refactoring.guru/design-patterns/observer)
+- ![Sobre o `Spring WebFlux`](https://medium.com/@michellibrito/spring-webflux-f611c8256c53)
 
 ---
 
